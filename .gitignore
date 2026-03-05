@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+ENV/
+
+# Bot Specific
+library/
+scrapes/
+*.json
+!examples/batch_template.json
+
+# System
+.DS_Store
